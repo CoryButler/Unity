@@ -1,0 +1,5 @@
+Copy Unity iOS project to Mac.
+
+Open Terminal.
+
+Enter: chmod +x path/to/mapfileparser.sh
