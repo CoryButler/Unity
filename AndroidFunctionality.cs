@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public static class AndroidFuctionality
 {
     // Call with: if (Input.GetKeyDown(KeyCode.Escape))
-    public static void BackButton(Button buttonOnClickToInvoke == null)
+    public static void BackButton(Button buttonOnClickToInvoke = null)
     {
         if (buttonOnClickToInvoke != null) 
             buttonOnClickToInvoke.onClick.Invoke();
